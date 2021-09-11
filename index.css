@@ -101,3 +101,8 @@ nav ul li a:hover:after{
     margin-top: 25px;
     margin-bottom: 30px;
 }
+.personal-profile{
+    position: absolute;
+    top: 35%;
+    right: 8%;
+}
