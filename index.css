@@ -20,8 +20,9 @@ nav{
     justify-content: space-between;
     padding: 30px 100px;
 }
-.logo{
+.personal-profile{
     max-height: 60px;
+    right: 30;
 }
 nav ul li{
     list-style: none;
