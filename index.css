@@ -110,5 +110,6 @@ nav ul li a:hover:after{
     right: 8%;
 }
 #Projects h6{
-right: 50%;
+    position: relative;
+right: 8%;
 }
