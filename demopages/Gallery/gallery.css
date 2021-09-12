@@ -1,6 +1,16 @@
 body{
-    font-style: normal;
-
+    font-style: Normal;
+    font-family: Arial;
     margin-left: 20%;
     margin-right: 10%;
+}
+.title{
+    font-size: larger;
+    font-family:'Times New Roman';
+}
+.img1{
+    left: 30%;
+}
+.img2{
+    left: 30%;
 }
