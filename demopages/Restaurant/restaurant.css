@@ -5,7 +5,7 @@ body {
   .resto{
     width: 80%;
     margin: 3% auto;
-    height: 95vh;
+    height: 110vh;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 40px;
   }
@@ -22,14 +22,12 @@ body {
   }
    .btn{
     position:relative;
-    left: 45%;
-    font-size: large;
+    left: 10%;
   }
   .img1{
     position:relative;
     width:fit-content;
     left: 1%;
-
     top: 5%;
   }
  
