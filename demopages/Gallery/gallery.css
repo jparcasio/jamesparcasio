@@ -18,22 +18,27 @@ body{
     left: 20%;
 }
 .a{
+    position: relative;
     height: 100px;
     width: 100px;
 }
 .b{
+    position: relative;
     height: 100px;
     width: 100px;
 }
 .c{
+    position: inherit;
     height: 100px;
     width: 100px;
 }
 .d{
+    position: relative;
     height: 100px;
     width: 100px;
 }
 .e{
+    position: relative;
     height: 100px;
     width: 100px;
 }
