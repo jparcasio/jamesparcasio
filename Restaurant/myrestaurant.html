@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <div class="resto">
+        <h1>PIZZA HOUSE</h1>
+        <div class= "sub">
+        <h2>WHATEVER YOU FEEL, JUST GRAB A PIZZA</h2>
+        </div>
+        <div class="img">
+        <img src="img/PIZZA.jpg" alt="pizza">
+        </div>
+        <a><button href="#overlay" class="btn">Order</button></a>
+        <div class= "img1">
+          <img src="img/36320.jpg" alt="pizz">
+        </div>
+        
+    </div>
+    
+    
+    <section id="overlay">
+       <hr>
+        <form action="submission.html" method="POST">
+          <h1>Customize your Pizza!</h1>
+                      <section class="protein">
+            <label for="patty">What would you name you Pizza?</label>
+                  <input type="text" name="patty" id="patty">
+          </section>
+          <hr>
+          <section class="patties">
+            <label for="amount">What size of douugh would you like?(inches)</label>
+            <input type="number" name="amount" id="amount">
+          </section>
+          <hr>
+          <section class="cooked">
+            <label for="doneness">How do you want your cheese</label>
+            <br>
+            <span>creamy</span>
+            <input type="range" name="doneness" id="doneness" value="3" min="1" max="3">
+            <span>Extra Creamy</span>
+          </section>
+          <hr>
+          <section class="toppings">
+            <span>What toppings would you like?</span>
+            <br>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Ham</label>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Pepperoni</label>
+            <input type="checkbox" name="topping" id="tomato" value="tomato">
+            <label for="tomato">Pineapple</label>
+            <input type="checkbox" name="topping" id="onion" value="onion">
+            <label for="onion">Onion</label>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Beef</label>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Bacon</label>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+            <label for="lettuce">Shrimp</label>
+          </section>
+          <hr>
+          <section class="cheesy">
+            <span>Would you like to add extra cheese?</span>
+            <br>
+            <input type="radio" name="cheese" id="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="cheese" id="no" value="yes">
+            <label for="no">No</label>
+          </section>
+          <hr>
+          <section class="bun-type">
+            <label for="bun">pair your pizza with</label>
+            <select name="bun" id="bun">
+              <option value="sesame">Iced Tea & Fries</option>
+              <option value="potato">Coke & Fries</option>
+              <option value="pretzel">Burger & Fries</option>
+              <option value="pretzel">Burger & Iced Tea</option>
+              <option value="pretzel">Burger & Coke</option>
+              <option value="pretzel">Burger & Fries & Iced Tea</option>
+              <option value="pretzel">Burger & Fries & Coke</option>
+            </select>
+          </section>
+          <hr>
+          <section class="sauce-selection">
+            <label for="sauce">What type of dipping sauce would you like?</label>
+            <input list="sauces" id="sauce" name="sauce">
+            <datalist id="sauces">
+              <option value="BBQ"></option>
+              <option value="mayo"></option>
+              <option value="mustard"></option>
+              <option value="sour cream"></option>
+              <option value="cheese"></option>
+              <option value="tomato ketchup"></option>
+            </datalist>
+          </section>
+          <hr>
+          <section class="extra-info">
+            <label for="extra">Anything else you want to add?</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+          </section>
+          <hr>
+  
+          <section class="submission">
+            <!--Add your code below-->
+            <form>
+              <input type = "place order">
+            </form>
+            
+          </section>
+          
+        </form>
+    </section>
+    </body>
+  </html>
