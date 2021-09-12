@@ -10,10 +10,10 @@ body{
     left: 40%;
 }
 .img1{
-    position: absolute;
+    position: relative;
     left: 30%;
 }
 .img2{
-    position: absolute;
-    left: 30%;
+    position: relative;
+    left: 40%;
 }
