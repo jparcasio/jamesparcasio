@@ -7,10 +7,13 @@ body{
 .title{
     font-size: larger;
     font-family:'Times New Roman';
+    left: 40%;
 }
 .img1{
+    position: absolute;
     left: 30%;
 }
 .img2{
+    position: absolute;
     left: 30%;
 }
