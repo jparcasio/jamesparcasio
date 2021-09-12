@@ -22,7 +22,9 @@ body {
   }
    .btn{
     position:relative;
-    left: 10%;
+    left: 0%;
+    size:10ch;
+    top: 80%;
   }
   .img1{
     position:relative;
