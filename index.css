@@ -139,7 +139,7 @@ nav ul li a:hover:after{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.content .tite{
+.content .more{
     color: #1f1f25;
     font-size: 15px;
     text-transform: uppercase;
