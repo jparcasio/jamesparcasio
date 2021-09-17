@@ -151,7 +151,7 @@ nav ul li a:hover:after{
     -webkit-text-fill-color: transparent;
 }
 .content .more #moresinfo{
-    position: absolute;
+    position: relative;
     right: 70%;
     top: 50%;
     color: #1f1f25;
