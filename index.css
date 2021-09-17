@@ -152,7 +152,7 @@ nav ul li a:hover:after{
 }
 .content .more #moresinfo{
     position: relative;
-    right: 70%;
+    left: 70%;
     top: 50%;
     color: #1f1f25;
     font-size: 15px;
