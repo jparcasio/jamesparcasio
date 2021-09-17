@@ -150,7 +150,7 @@ nav ul li a:hover:after{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.content .more #moresinfo{
+.content #moresinfo{
     position: absolute;
     margin-left: 170%;
     margin-bottom: 50%;
