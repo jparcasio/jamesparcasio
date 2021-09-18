@@ -150,12 +150,11 @@ nav ul li a:hover:after{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.content #moresinfo{
+.content .more #moresinfo{
     position: absolute;
-    margin-left: 170%;
-    margin-bottom: 50%;
     color: #1f1f25;
     font-size: 15px;
+    display: inline-block;
     text-transform: uppercase;
     letter-spacing: 4px;
     background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
