@@ -1,5 +1,5 @@
 .contact{
-    width: 30%;
+    width: 50%;
     margin: 3% auto;
     height: 35vh;
     background-color:#d65a5a;
@@ -13,7 +13,7 @@
     letter-spacing: 3px;
     font-family: 'Karla', sans-serif;
     font-size: 50px;
-    color:#ffffff
+    color:linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
 
   }
   
@@ -44,7 +44,7 @@
 
 .btn input[type="submit"] {
     margin-top:20px;
-    background: #45A29E;
+    background: #eb4079;
     cursor: pointer;
     color:white;
     padding:12px 20px;
