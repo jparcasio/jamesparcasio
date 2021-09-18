@@ -105,7 +105,7 @@ nav ul li a:hover:after{
     width: 100%;
 }
 .btn{
-    color: #fff;
+    color: #fff !important;
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -152,6 +152,7 @@ nav ul li a:hover:after{
 }
 #moresinfo{
     top: 110%;
+    color: #ffffff;
     position: relative;
     margin-left: 70%;
     font-size: 15px;
