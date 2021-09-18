@@ -2,7 +2,7 @@
     width: 30%;
     margin: 3% auto;
     height: 35vh;
-    background-color:#0B0C10;
+    background-color:#d65a5a;
     border-radius: 40px;
   }
   
@@ -13,7 +13,7 @@
     letter-spacing: 3px;
     font-family: 'Karla', sans-serif;
     font-size: 50px;
-    color:#66FCF1
+    color:#ffffff
 
   }
   
@@ -35,7 +35,7 @@
   
   #error_message{
     margin-bottom: 20px;
-    background: #d4343a;
+    background: #e4d83b;
     padding: 0px;
     text-align: center;
     font-size: 14px;
