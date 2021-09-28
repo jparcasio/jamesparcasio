@@ -7,6 +7,7 @@
     <title>Responsive</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="responsice.css">
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body class="bg-light">
@@ -43,12 +44,12 @@
     <section class="p-5">
         <div class="container">
             <div class="row g-4">
-                <div class="col-md"></div>
-                <h2 class="text-center mb-4">Contact Info</h2>
-                <ul class="list-group list-group-flush lead">
-                    <li class="list-group-item">
-                    <span class="fw-bold">Main Location:</span> 50 Main st
-                    Boston MA
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> 50 Main st
+                        Boston MA
                         </li>
                         <li class="list-group-item">
                             <span class="fw-bold">Enrollment Phone:</span> (555)
@@ -70,10 +71,13 @@
                             <span class="fw-bold">Enrollment Phone:</span> 
                             student@frontendbc.test
                         </li>
-                </ul>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
             </div>
-            <div class="cold-md"></div>
-            <div id="map"></div>
+            
         </div>
     </section>
     <script src="js/bootstrap.bundle.min.js"></script>
