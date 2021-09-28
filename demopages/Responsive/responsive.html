@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body class="bg-light">
     <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
@@ -30,12 +33,59 @@
             <li><a href="#about" class="dropdown-item">About</a></li>
             <li><a href="#services" class="dropdown-item">Services</a></li>
             <li><a href="#portfolio" class="dropdown-item">Portfolio</a></li>
-            <li><a href="#testimonials" class="dropdown-item">Testimonials</a></li>
             <li><a href="#contact" class="dropdown-item">Contact</a></li>
+            
           </ul>
         </div>
       </div>
     </nav>
-    
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md"></div>
+                <h2 class="text-center mb-4">Contact Info</h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                    <span class="fw-bold">Main Location:</span> 50 Main st
+                    Boston MA
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Phone:</span> (555)
+                            555-5555
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Student Phone:</span> (333)
+                            333-3333
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Phone:</span> (555)
+                            555-5555
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Email:</span>
+                            enrollment@frontendbc.test
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enrollment Phone:</span> 
+                            student@frontendbc.test
+                        </li>
+                </ul>
+            </div>
+            <div class="cold-md"></div>
+            <div id="map"></div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <script>
+       mapboxgl.accessToken = 'pk.eyJ1IjoieWFueWFuMDIyMTAyIiwiYSI6ImNrdTNkOGJiazFuYTMydW56MTFvZHU4aHkifQ.zWyu5hHijGPHRQF3HVOOPw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [-71.060982, 42.35725],
+zoom:18
+});
+</script>
 </body>
 </html>
