@@ -1,123 +1,202 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="restaurant.css">
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+
+ 
+    <script src='js/device.min.js'></script> 
 </head>
+
 <body>
-    <div class="resto">
-        <h1>PIZZA HOUSE</h1>
-        <div class= "sub">
-        <h2>WHATEVER YOU FEEL, JUST GRAB A PIZZA</h2>
+<div class="page">
+
+    <header>
+
+        <div class="camera_container">
+            <div id="camera" class="camera_wrap">
+                <div data-thumb="images/slide01_thumb.jpg" data-src="images/slide01.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="images/slide02_thumb.jpg" data-src="images/slide02.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+                <div data-thumb="images/slide03_thumb.jpg" data-src="images/slide03.jpg">
+                    <div class="camera_caption fadeIn">
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand wow fadeIn">
+                <h1 class="brand_name">
+                    <a href="./">Le Cafe <br> Pavoritto</a>
+                </h1>
+            </div>
         </div>
-        <div class="img">
-        <img src="img/PIZZA.jpg" alt="pizza">
-        </div>
-        <div class= "img1">
-          <img src="img/36320.jpg" alt="pizz">
-        </div>
-        <form>
-        <a href="#overlay" class="btn"><button style="height: 50px;width: 150px;font-size:large;">Customize Order</button></a>
-        </form>
         
-    </div>
-    
-    
-    <section id="overlay">
-       <hr>
-        <form action="submission.html" method="POST">
-          <h1>Customize your Pizza!</h1>
-                      <section class="protein">
-            <label for="patty">What would you name you Pizza?</label>
-                  <input type="text" name="patty" id="patty">
-          </section>
-          <hr>
-          <section class="patties">
-            <label for="amount">What size of douugh would you like?(inches)</label>
-            <input type="number" name="amount" id="amount">
-          </section>
-          <hr>
-          <section class="cooked">
-            <label for="doneness">How do you want your cheese</label>
-            <br>
-            <span>creamy</span>
-            <input type="range" name="doneness" id="doneness" value="3" min="1" max="3">
-            <span>Extra Creamy</span>
-          </section>
-          <hr>
-          <section class="toppings">
-            <span>What toppings would you like?</span>
-            <br>
-            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-            <label for="lettuce">Ham</label>
-            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-            <label for="lettuce">Pepperoni</label>
-            <input type="checkbox" name="topping" id="tomato" value="tomato">
-            <label for="tomato">Pineapple</label>
-            <input type="checkbox" name="topping" id="onion" value="onion">
-            <label for="onion">Onion</label>
-            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-            <label for="lettuce">Beef</label>
-            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-            <label for="lettuce">Bacon</label>
-            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
-            <label for="lettuce">Shrimp</label>
-          </section>
-          <hr>
-          <section class="cheesy">
-            <span>Would you like to add extra cheese?</span>
-            <br>
-            <input type="radio" name="cheese" id="yes" value="yes">
-            <label for="yes">Yes</label>
-            <input type="radio" name="cheese" id="no" value="yes">
-            <label for="no">No</label>
-          </section>
-          <hr>
-          <section class="bun-type">
-            <label for="bun">pair your pizza with</label>
-            <select name="bun" id="bun">
-              <option value="sesame">Iced Tea & Fries</option>
-              <option value="potato">Coke & Fries</option>
-              <option value="pretzel">Burger & Fries</option>
-              <option value="pretzel">Burger & Iced Tea</option>
-              <option value="pretzel">Burger & Coke</option>
-              <option value="pretzel">Burger & Fries & Iced Tea</option>
-              <option value="pretzel">Burger & Fries & Coke</option>
-            </select>
-          </section>
-          <hr>
-          <section class="sauce-selection">
-            <label for="sauce">What type of dipping sauce would you like?</label>
-            <input list="sauces" id="sauce" name="sauce">
-            <datalist id="sauces">
-              <option value="BBQ"></option>
-              <option value="mayo"></option>
-              <option value="mustard"></option>
-              <option value="sour cream"></option>
-              <option value="cheese"></option>
-              <option value="tomato ketchup"></option>
-            </datalist>
-          </section>
-          <hr>
-          <section class="extra-info">
-            <label for="extra">Anything else you want to add?</label>
-            <br>
-            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
-          </section>
-          <hr>
-  
-          <section class="submission">
-            <!--Add your code below-->
-            <form>
-              <input type = "place order">
-            </form>
-            
-          </section>
-          
-        </form>
-    </section>
-    </body>
-  </html>
+        
+
+    </header>
+    <main>
+        <section class="well">
+            <div class="container">
+                <h2><em>Welcome!</em>Senior and Seniora</h2>
+               
+                <div class="decoration"><a href="#" class="btn">MENU</a></div>
+                <h2><em>La Cuisina</em></h2>
+            </div>            
+            <div class="gallery">
+                <div class="gallery_col-1">
+                    <a data-fancybox-group="gallery" href="images/page-1_img03_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.96551724137931%;">
+                        <img data-src="images/page-1_img03.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Le Chick Fillet</em></p>
+                                <p>$80</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img04_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 74.13793103448276%;">
+                        <img data-src="images/page-1_img04.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>El Prutas</em></p>
+                                <p>$45</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img05_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 94.6551724137931%;">
+                        <img data-src="images/page-1_img05.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>El Dieta</em></p>
+                                <p>$30</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_col-2">
+                    <a data-fancybox-group="gallery" href="images/page-1_img06_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 52.48322147651007%;">
+                        <img data-src="images/page-1_img06.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>La Umagahan</em></p>
+                                <p>$25</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img07_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 55.97315436241611%;">
+                        <img data-src="images/page-1_img07.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Le Pananghali-an</em></p>
+                                <p>$125</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img08_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 96.10738255033557%;">
+                        <img data-src="images/page-1_img08.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Li hapunan</em></p>
+                                <p>$60</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery_col-3">
+                    <a data-fancybox-group="gallery" href="images/page-1_img09_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
+                        <img data-src="images/page-1_img09.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>El Desserto</em></p>
+                                <p>$30</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img10_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 72.23168654173765%;">
+                        <img data-src="images/page-1_img10.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>La Palaman</em></p>
+                                <p>$25</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a data-fancybox-group="gallery" href="images/page-1_img11_original.jpg" class="gallery_item thumb lazy-img" style="padding-bottom: 93.69676320272572%;">
+                        <img data-src="images/page-1_img11.jpg" alt="">
+                        <div class="gallery_overlay">
+                            <div class="gallery_caption">
+                                <p><em>Ispaggetto</em></p>
+                                <p>$45</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="parallax parallax1" data-parallax-speed="-0.4">
+            <div class="container">
+                <h2><em>Please </em>Enjoy</h2>
+                <p class="indents-2"></p>
+                <a href="#" class="btn">View full menu</a>
+            </div>
+        </section>
+        <section class="well well__offset-1 bg-1">
+            <div class="container">
+                <h2><em>The one and only </em>Cook</h2>
+                <div class="row row__offset-1">
+                   
+                   
+                        <div class="text-center">
+                        <figure>
+                            <div class="img lazy-img" style="padding-bottom: 101.0810810810811%;"><img data-src="images/page-1_img13.jpg" alt=""></div>
+                            <figcaption>Manny El Nino Pakyaw</figcaption>
+                        </figure>
+                        <h3>Edi Tipaklong Hehe</h3>
+                        <p>Sunday ng gabi natulog ako and then yung panaghinip ko talaga iba, nasa itaas daw ako ng building tapos tinitingnan ko yung parang kalsada, lupa, parang yung alon ng yung dagat tapos nakita ko may tumatakbong kabayo na may sakay, pulang kabayo, tulin-tulin ganun.</p>
+                   
+               
+            </div>
+        </section>
+        <section class="well well__offset-2">
+            <div class="container center">
+                <h2>Make a Reservation</h2>
+                <p class="indents-2">Just go duol UIC Bonifacio and then go left then tuyok ka sa ikawalo nga kanto, og sakay kag SASA then you go naog sa toril.</p>
+                <address class="address-1">
+                    <dl><dt>Address:</dt> <dd>420 balikwas liko-liko pa left street, Pagawas bente-uno Village</dd></dl>
+                    <p><em>000-111-666-999</em></p>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul class="socials">
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-tumblr"></a></li>
+                <li><a href="#" class="fa fa-google-plus"></a></li>
+            </ul>
+            <div class="copyright">© <span id="copyright-year"></span> |
+                <a href="#">Privacy is the best Policy</a>
+            </div>
+        </div>
+       
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
